@@ -16,18 +16,33 @@ h1{
 
 .btn-warning {
   background-color: #f7895f;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
 }
 
 .btn-warning:hover {
   background-color: #f7aa8c;
 }
 
+.btn-warning:focus {
+  background-color: #f7aa8c;
+}
+
 .btn-default {
   background-color: #b6ada0;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
 }
 
 .btn-default:hover {
   background-color: #cec9c0;
+}
+
+.btn:focus, .btn:active:focus, .btn.active:focus { 
+  outline: none; ! important; 
+  outline-style: none; 
 }
 
 body {
